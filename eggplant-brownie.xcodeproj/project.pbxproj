@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C432C22261E5BE900936371 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C432C21261E5BE900936371 /* RefeicoesTableViewController.swift */; };
 		4C4AFA11261BCE950016899E /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4AFA10261BCE950016899E /* Refeicao.swift */; };
 		4C4AFA16261BCF240016899E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4AFA15261BCF240016899E /* Item.swift */; };
 		4C63E06B260CE4BE0060CE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C63E06A260CE4BE0060CE67 /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		4C2C61DC2610F10100377161 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4C432C21261E5BE900936371 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 		4C4AFA10261BCE950016899E /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		4C4AFA15261BCF240016899E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		4C63E067260CE4BE0060CE67 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4C63E06E260CE4BE0060CE67 /* ViewController.swift */,
+				4C432C21261E5BE900936371 /* RefeicoesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				4C4AFA16261BCF240016899E /* Item.swift in Sources */,
 				4C63E06F260CE4BE0060CE67 /* ViewController.swift in Sources */,
 				4C63E06B260CE4BE0060CE67 /* AppDelegate.swift in Sources */,
+				4C432C22261E5BE900936371 /* RefeicoesTableViewController.swift in Sources */,
 				4C63E06D260CE4BE0060CE67 /* SceneDelegate.swift in Sources */,
 				4C4AFA11261BCE950016899E /* Refeicao.swift in Sources */,
 			);
