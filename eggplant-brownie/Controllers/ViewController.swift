@@ -1,11 +1,15 @@
 import UIKit
 
+protocol ViewControllerDelegate {
+    func adicionar(_ refeicao: Refeicao)
+}
+
 class ViewController: UIViewController {
     
     @IBOutlet var nomeTextField: UITextField?
     @IBOutlet weak var felicidadeTextField: UITextField?
     
-    var tabelaDeRefeicao: RefeicoesTableViewController?
+    var delegate: ViewControllerDelegate?
     
     @IBAction func adicionar(_ sender: Any) {
         
@@ -21,7 +25,7 @@ class ViewController: UIViewController {
         
         print("comi \(refeicao.nome) e fiquei com felicidade: \(refeicao.felicidade)")
         
-        tabelaDeRefeicao?.adicionar(refeicao: refeicao)
+        delegate?.adicionar(refeicao)
         navigationController?.popViewController(animated: true)
     }
 }
